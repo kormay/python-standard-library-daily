@@ -221,3 +221,11 @@ Out[2]: [(0, 'Spring'), (1, 'Summer'), (2, 'Fall'), (3, 'Winter')]
 In [3]: list(enumerate(seasons, start=2))
 Out[3]: [(2, 'Spring'), (3, 'Summer'), (4, 'Fall'), (5, 'Winter')]
 ```
+
+## eval(expression[, globals[, locals]])
+eval() 函数用来执行一个字符串表达式，并返回表达式的值。  
+- expression -- 表达式。  
+- globals -- 变量作用域，全局命名空间，如果被提供，则必须是一个字典对象。  
+- locals -- 变量作用域，局部命名空间，如果被提供，可以是任何映射对象。
+
+  
